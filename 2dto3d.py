@@ -8,7 +8,7 @@ from torchvision.transforms import Compose, ToTensor, Resize
 from PIL import Image
 
 # Configuration
-IMAGE_PATH = "./sci_fi_gun.jpg"  # Update this path
+IMAGE_PATH = ""  # Update this path
 DEPTH_STRENGTH = 3.0             # 1-5 (Higher = more depth)
 OUTPUT_SCALE = 0.03              # Overall size (0.01-0.1)
 
